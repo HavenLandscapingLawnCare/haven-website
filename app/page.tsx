@@ -11,7 +11,7 @@ export default function Page() {
             {/* NEW: icon logo */}
             <Image
               src="/brand/haven-icon.png"
-              alt="Haven Lawncare icon"
+              alt="Haven Lawn Care icon"
               width={36}
               height={36}
               priority
@@ -20,7 +20,7 @@ export default function Page() {
 
             <div className="leading-tight">
               <div className="font-extrabold tracking-tight">
-                Haven <span className="font-semibold text-slate-700">Lawncare</span>
+                Haven <span className="font-semibold text-slate-700">Lawn Care</span>
               </div>
               <div className="text-xs text-slate-600">Daphne • Fairhope • Baldwin County</div>
             </div>
@@ -54,7 +54,7 @@ export default function Page() {
             <div className="mb-4">
               <Image
                 src="/brand/haven-logo.png"
-                alt="Haven Lawncare"
+                alt="Haven Lawn Care"
                 width={320}
                 height={90}
                 priority
@@ -205,7 +205,7 @@ export default function Page() {
           </div>
 
           <div className="mt-10 text-xs text-white/55">
-            © {new Date().getFullYear()} Haven Lawncare
+            © {new Date().getFullYear()} Haven Lawn Care
           </div>
         </div>
       </section>
