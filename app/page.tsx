@@ -63,7 +63,7 @@ export default function Page() {
             </div>
 
             <p className="inline-flex items-center rounded-full border border-black/10 bg-white/70 px-3 py-2 text-xs font-semibold text-slate-700">
-              Premium lawn care • “future of care” service experience
+              Premium Lawn Care • “future of care” service experience
             </p>
 
             <h1 className="mt-4 text-4xl font-extrabold tracking-tight md:text-6xl">
@@ -115,7 +115,7 @@ export default function Page() {
 
             <div className="mt-4 space-y-3 text-sm">
               <Row label="Service Area" value="Daphne / Fairhope" />
-              <Row label="Services" value="Lawn care + Pressure washing" />
+              <Row label="Services" value="Lawn Care + Pressure washing" />
               <Row label="Phone" value="(251) 422-3362" />
             </div>
 
