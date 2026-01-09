@@ -1,6 +1,26 @@
+import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+<header className="flex items-center justify-between px-6 py-4 border-b">
+  <Link href="/" className="flex items-center gap-3">
+    <Image
+      src="/brand/haven-logo.png"
+      alt="Haven Lawncare"
+      width={160}
+      height={48}
+      priority
+    />
+  </Link>
+
+  <nav className="flex gap-6 font-medium">
+    <a href="#services">Services</a>
+    <a href="#quote">Get a Quote</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
