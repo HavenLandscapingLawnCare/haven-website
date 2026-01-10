@@ -107,7 +107,7 @@ export default function Page() {
               <Row label="Service Area" value="Daphne / Fairhope / Baldwin County" />
               <Row label="Services" value="Lawn Care + Pressure washing" />
               <Row label="Phone" value="(251) 422-3362" />
-              <Row label="Email" value={<a href="mailto:havenllservice@gmail.com" className="font-medium text-slate-900 hover:underline">havenllservice@gmail.com</a>} />
+              <Row label="Email" value={<a href="mailto:havenllservice@gmail.com" className="font-semibold-slate-900 hover:underline">havenllservice@gmail.com</a>} />
 
 
             </div>
