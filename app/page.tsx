@@ -116,9 +116,7 @@ export default function Page() {
               Request a Quote
             </a>
 
-            <p className="mt-3 text-xs text-slate-600">
-              Add 3 reviews + before/after pics for a huge trust boost.
-            </p>
+           
           </div>
         </div>
       </section>
