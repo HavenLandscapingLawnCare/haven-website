@@ -12,8 +12,8 @@ export default function Page() {
             <Image
               src="/brand/haven-icon.png"
               alt="Haven Lawn Care icon"
-              width={36}
-              height={36}
+              width={50}
+              height={50}
               priority
               className="rounded-xl"
             />
@@ -53,7 +53,7 @@ export default function Page() {
             {/* NEW: full logo */}
 
             <p className="inline-flex items-center rounded-full border border-black/10 bg-white/70 px-3 py-2 text-xs font-semibold text-slate-700">
-              Local Lawn Care • “People you can trust” We care about you!
+              Local Lawn Care • People you can trust • We care about you!
             </p>
 
             <h1 className="mt-4 text-4xl font-extrabold tracking-tight md:text-6xl">
