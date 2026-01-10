@@ -100,13 +100,23 @@ export default function Page() {
           <div className="rounded-3xl border border-black/10 bg-white p-6 shadow-2xl">
             <div className="flex items-baseline justify-between">
               <h3 className="text-lg font-extrabold">Quick Estimate</h3>
-              <span className="text-xs font-semibold text-slate-600">Reply fast (edit)</span>
+            
             </div>
 
             <div className="mt-4 space-y-3 text-sm">
-              <Row label="Service Area" value="Daphne / Fairhope" />
+              <Row label="Service Area" value="Daphne / Fairhope / Baldwin County" />
               <Row label="Services" value="Lawn Care + Pressure washing" />
               <Row label="Phone" value="(251) 422-3362" />
+              <div className="mt-4 text-sm text-slate-600">
+  Email:{" "}
+  <a
+    href="mailto:havenllservice@gmail.com"
+    className="font-medium text-slate-900 hover:underline"
+  >
+    havenllservice@gmail.com
+  </a>
+</div>
+
             </div>
 
             <a
