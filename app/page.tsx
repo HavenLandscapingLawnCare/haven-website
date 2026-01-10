@@ -7,7 +7,7 @@ export default function Page() {
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-black/10 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1">
             {/* NEW: icon logo */}
             <Image
               src="/brand/haven-icon.png"
