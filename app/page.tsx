@@ -12,8 +12,8 @@ export default function Page() {
             <Image
               src="/brand/haven-icon.png"
               alt="Haven Lawn Care icon"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               priority
               className="rounded-xl"
             />
