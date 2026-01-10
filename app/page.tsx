@@ -125,7 +125,7 @@ export default function Page() {
       <section id="services" className="py-14">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl font-extrabold tracking-tight">Services</h2>
-          <p className="mt-2 max-w-2xl text-slate-700">Simple menu, premium execution.</p>
+      
 
           <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
             <Card title="Mowing" desc="Consistent cut height, straight lines, clean finish." />
