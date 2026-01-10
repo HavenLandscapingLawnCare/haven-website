@@ -32,9 +32,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Haven Lawn Care",
-  description: "Haven Lawn Care serves Downtown Daphne, Fairhope, and the surrounding Areas.",
+export const metadata = {
+  title: "Haven Landscaping & Lawncare",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
