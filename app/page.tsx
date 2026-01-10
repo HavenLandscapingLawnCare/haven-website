@@ -144,7 +144,6 @@ export default function Page() {
       <section id="work" className="bg-emerald-50/60 py-14">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl font-extrabold tracking-tight">Recent Work</h2>
-          <p className="mt-2 text-slate-700">These are placeholders — replace with your real before/after photos.</p>
 
           <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3">
             {Array.from({ length: 6 }).map((_, i) => (
