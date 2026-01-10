@@ -48,19 +48,9 @@ export default function Page() {
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-white via-emerald-50/60 to-white">
-        <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 px-5 py-16 md:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-4 px-5 py-10 md:grid-cols-2">
           <div>
             {/* NEW: full logo */}
-            <div className="mb-4">
-              <Image
-                src="/brand/haven-logo.png"
-                alt="Haven Lawn Care"
-                width={320}
-                height={90}
-                priority
-                className="h-14 w-auto"
-              />
-            </div>
 
             <p className="inline-flex items-center rounded-full border border-black/10 bg-white/70 px-3 py-2 text-xs font-semibold text-slate-700">
               Premium Lawn Care • “future of care” service experience
