@@ -107,15 +107,8 @@ export default function Page() {
               <Row label="Service Area" value="Daphne / Fairhope / Baldwin County" />
               <Row label="Services" value="Lawn Care + Pressure washing" />
               <Row label="Phone" value="(251) 422-3362" />
-              <div className="mt-4 text-sm text-slate-600">
-  Email:{" "}
-  <a
-    href="mailto:havenllservice@gmail.com"
-    className="font-medium text-slate-900 hover:underline"
-  >
-    havenllservice@gmail.com
-  </a>
-</div>
+              <Row label="Email" value={<a href="mailto:havenllservice@gmail.com" className="font-medium text-slate-900 hover:underline">havenllservice@gmail.com</a>} />
+
 
             </div>
 
@@ -210,7 +203,8 @@ export default function Page() {
   );
 }
 
-function Row({ label, value }: { label: string; value: string }) {
+function Row({ label, value }: { label: string; value: React.ReactNode }) {
+
   return (
     <div className="flex items-center justify-between gap-4">
       <div className="text-slate-600">{label}</div>
