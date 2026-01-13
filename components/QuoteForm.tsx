@@ -58,7 +58,7 @@ export default function QuoteForm() {
 
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
           <Field label="Email (optional)" name="email" type="email" placeholder="you@email.com" />
-          <Field label="City" name="city" placeholder="Daphne / Fairhope" />
+          <Field label="City" name="city" placeholder="Daphne / Fairhope / Baldwin County" />
         </div>
 
         <Field label="Address / Neighborhood" name="address" placeholder="Optional but helps for pricing" />
