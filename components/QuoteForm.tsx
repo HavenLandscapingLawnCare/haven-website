@@ -68,7 +68,7 @@ export default function QuoteForm() {
             label="Service"
             name="service"
             required
-            options={["Mowing", "Edging & Trimming", "Seasonal Cleanup", "Pressure Washing", "Other"]}
+            options={["Mowing, Edging & Trimming", "Seasonal Cleanup", "Pressure Washing", "Other"]}
           />
           <Select
             label="Frequency"
